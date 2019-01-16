@@ -15,14 +15,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post('/', function (req, res) {
 
-  var contents = fs.readFileSync(req.body.chat, 'utf8');
-        if (err) {
-          console.log(err);
-        } else {
-      }
-      });
+
 
 })
+
 app.listen(3000,()=>{
   console.log("output to port 3000");
 })
