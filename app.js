@@ -15,8 +15,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post('/', function (req, res) {
 
-
-
 })
 
 app.listen(3000,()=>{
